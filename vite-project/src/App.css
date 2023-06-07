@@ -1,0 +1,65 @@
+@font-face {
+    font-family: GE_SS_Two_Light;
+    src: url(../font/GE_SS_Two_Light.otf);
+}
+
+@font-face {
+    font-family: GE_SS_Two_Bold;
+    src: url(../font/GE_SS_Two_Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: GE_SS_Two_Light;
+}
+
+h1 {
+    font-family: GE_SS_Two_Bold;
+}
+
+#navflex {
+    border: 1px solid #FF4F5A;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    font-size: 20px;
+}
+
+#title {
+    font-family: GE_SS_Two_Bold;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#footer {
+
+    margin-top: 400px;
+    height: 17em;
+}
+
+#bor {
+    border: 1px solid;
+    border-color: #FF4F5A;
+}
+
+@media only screen and (max-width:48em) {
+    #title {
+        font-family: GE_SS_Two_Bold;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    #mylogo {
+        height: 90px;
+    }
+
+    #welcome {
+        font-size: 15px;
+    }
+
+    #flexCard {
+        flex-direction: column-reverse;
+
+    }
+
+}
