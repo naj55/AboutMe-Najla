@@ -1,4 +1,4 @@
-import { ChakraProvider, Flex, Box, Text, Spacer, VStack } from "@chakra-ui/react"
+import { ChakraProvider, Flex, Text, Spacer, VStack } from "@chakra-ui/react"
 export default function Footer() {
     return (
         <ChakraProvider>
@@ -9,9 +9,7 @@ export default function Footer() {
                     <Text textalign="center" color="#fff">جميع الحقوق محفوظة</Text>
                 </VStack>
                 <Spacer />
-                <Box bg="gray.200" p="10px" mt="0%" mr="40px">
 
-                </Box>
             </Flex>
         </ChakraProvider>
 
