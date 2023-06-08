@@ -15,8 +15,9 @@ export default function About() {
 
                         <Heading as="h1" id="title" color="#385A64" >Najla Portfolio</Heading>
                         <Text id="welcome" color="#385A64">مرحبا بك في صفحتي</Text>
+                        <br></br>
                         <Box>
-                            <Button variant='solid' bg='#385A64' color="gray.400" onClick={() => Navigate('/')}>
+                            <Button variant='solid' bg='#888888' border="2em" color="#fff" w="7em" onClick={() => Navigate('/')}>
                                 الرئيسية
 
                             </Button>
