@@ -67,12 +67,21 @@ export default function Cards() {
                                 />
                             </div>
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>Living room Sofa</Heading>
-                                <Text>
-                                    This sofa is perfect for modern tropical spaces, baroque inspired
-                                    spaces, earthy toned spaces and for people who love a chic design with a
-                                    sprinkle of vintage design.
-                                </Text>
+                                <Heading id="title2" textAlign='right' size='md'>المهارات التي اكتسبتها خلال تجربتي</Heading>
+                                <Box textAlign='right'>
+                                    <Text>
+                                        المهارات الناعمة
+                                    </Text>
+                                    <Text>
+                                        ضبط النفس و المرونة*
+                                    </Text>
+                                    <Text>
+                                        العمل الجماعي و القدرة على تقريب وجهات النظر*
+                                    </Text>
+                                    <Text>
+                                        التفكير المنطقي و حل المشكلات *
+                                    </Text>
+                                </Box>
 
                             </Stack>
                         </CardBody>
