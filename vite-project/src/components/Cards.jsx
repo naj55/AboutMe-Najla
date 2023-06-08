@@ -1,4 +1,4 @@
-import { ChakraProvider, Card, CardBody, CardFooter, Stack, Heading, Text, Divider, ButtonGroup, Button, Image, Flex } from '@chakra-ui/react'
+import { ChakraProvider, Box, Card, CardBody, CardFooter, Stack, Heading, Text, Divider, ButtonGroup, Button, Image, Flex } from '@chakra-ui/react'
 import Image1 from '../assets/work.png'
 import Image2 from '../assets/develop.jpg'
 import { useNavigate } from "react-router-dom";
@@ -25,12 +25,22 @@ export default function Cards() {
                                 />
                             </div>
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>Living room Sofa</Heading>
-                                <Text>
-                                    This sofa is perfect for modern tropical spaces, baroque inspired
-                                    spaces, earthy toned spaces and for people who love a chic design with a
-                                    sprinkle of vintage design.
-                                </Text>
+                                <Heading size='lg' id="title2" textAlign='right'>  التعليم و الخبرات</Heading>
+                                <Box textAlign='right'>
+                                    <Text>
+                                        الخبرات
+                                    </Text>
+                                    <Text>
+                                        موظفة في القسم التقني لمدة سنة*
+                                    </Text>
+                                    <Text>
+                                        مدربة روبوت لمدة ٣ سنوات*
+                                    </Text>
+                                    <Text>
+                                        مساعد إداري لمدة سنه *
+                                    </Text>
+                                </Box>
+
 
                             </Stack>
                         </CardBody>

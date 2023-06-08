@@ -8,17 +8,37 @@ export default function Card1() {
 
     const Navigate = useNavigate();
     const { id } = useParams()
-    let fisrttext = "";
-    let secondtext = "";
+
+    let Titlefisrttext, Text2, Text3, Text4, Text5, Text6, Text7
+
+    let secondtext, Text8, Text9, Text10
     console.log(id)
 
 
     if (id == 1) {
-        fisrttext = "jpojupogrurepoguertoperutpero"
+        Titlefisrttext = `التعليم`
+        Text2 = ` مطورة واخصائية نظم معلومات حاسوبية *`
+        Text3 = `جامعة الدمام `
+        Text4 = `لغات البرمجة التي اتقنها`
+        Text5 = "JavaScript-"
+        Text6 = "Php-"
+        Text7 = "Python-"
         secondtext = ""
+        Text8 = ""
+        Text9 = ""
+        Text10 = ""
+
     } else {
-        secondtext = "nn"
-        fisrttext = ""
+        Titlefisrttext = ""
+        Text2 = ``
+        Text3 = ``
+        Text4 = ``
+        Text5 = ""
+        Text6 = ""
+        Text7 = ""
+        Text8 = " ادارة الوقت*"
+        Text9 = "العمل تحت الضغط*"
+        Text10 = "التفكير الابداعي*"
     }
 
     return (
@@ -40,12 +60,21 @@ export default function Card1() {
                                 />
                             </div>
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>Living room Sofa</Heading>
-                                <Text>
-                                    This sofa is perfect for modern tropical spaces, baroque inspired
-                                    spaces, earthy toned spaces and for people who love a chic design with a
-                                    sprinkle of vintage design.
-                                </Text>
+                                <Heading id="title2" textAlign='right'>  التعليم و الخبرات</Heading>
+                                <Box textAlign='right'>
+                                    <Text>
+                                        الخبرات
+                                    </Text>
+                                    <Text>
+                                        موظفة في القسم التقني لمدة سنة*
+                                    </Text>
+                                    <Text>
+                                        مدربة روبوت لمدة ٣ سنوات*
+                                    </Text>
+                                    <Text>
+                                        مساعد إداري لمدة سنه *
+                                    </Text>
+                                </Box>
 
                             </Stack>
                         </CardBody>
@@ -58,7 +87,15 @@ export default function Card1() {
 
                             </ButtonGroup>
                         </CardFooter>
-                        <Box>{fisrttext}</Box>
+                        <Box textAlign='right'>
+                            <Text>{Titlefisrttext}</Text>
+                            <Text>{Text2}</Text>
+                            <Text>{Text3}</Text>
+                            <Text>{Text4}</Text>
+                            <Text>{Text5}</Text>
+                            <Text>{Text6}</Text>
+                            <Text>{Text7}</Text>
+                        </Box>
                     </Card>
 
                     <Card maxW='sm'>
@@ -73,12 +110,21 @@ export default function Card1() {
                                 />
                             </div>
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>Living room Sofa</Heading>
-                                <Text>
-                                    This sofa is perfect for modern tropical spaces, baroque inspired
-                                    spaces, earthy toned spaces and for people who love a chic design with a
-                                    sprinkle of vintage design.
-                                </Text>
+                                <Heading id="title2" textAlign='right' size='md'>المهارات التي اكتسبتها خلال تجربتي</Heading>
+                                <Box textAlign='right'>
+                                    <Text>
+                                        المهارات الناعمة
+                                    </Text>
+                                    <Text>
+                                        ضبط النفس و المرونة*
+                                    </Text>
+                                    <Text>
+                                        العمل الجماعي و القدرة على تقريب وجهات النظر*
+                                    </Text>
+                                    <Text>
+                                        التفكير المنطقي و حل المشكلات *
+                                    </Text>
+                                </Box>
 
                             </Stack>
                         </CardBody>
@@ -94,7 +140,13 @@ export default function Card1() {
 
                             </ButtonGroup>
                         </CardFooter>
-                        <Box>{secondtext}</Box>
+                        <Box textAlign='right'>
+                            <Text>{secondtext}</Text>
+                            <Text>{Text8}</Text>
+                            <Text>{Text9}</Text>
+                            <Text>{Text10}</Text>
+
+                        </Box>
                     </Card>
 
                 </Flex>

@@ -33,7 +33,7 @@ h1 {
 
 #footer {
 
-    margin-top: 400px;
+    margin-top: 200px;
     height: 17em;
 }
 
@@ -42,11 +42,23 @@ h1 {
     border-color: #FF4F5A;
 }
 
+#title2 {
+    font-family: GE_SS_Two_Bold;
+    font-weight: 200;
+    font-size: 20px;
+}
+
 @media only screen and (max-width:48em) {
     #title {
         font-family: GE_SS_Two_Bold;
         font-weight: 200;
         font-size: 20px;
+    }
+
+    #title2 {
+        font-family: GE_SS_Two_Bold;
+        font-weight: 200;
+        font-size: 15px;
     }
 
     #mylogo {
